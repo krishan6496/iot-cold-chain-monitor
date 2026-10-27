@@ -1,0 +1,17 @@
+{
+  "name": "coldchain-monitor",
+  "version": "2.0.0",
+  "description": "IoT cold chain monitoring: ESP32 + Express + SQLite",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "seed": "node backend/scripts/seed.js",
+    "simulate": "node backend/scripts/simulate.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
